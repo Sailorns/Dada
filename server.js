@@ -185,7 +185,6 @@ app.get('*', (req, res) => {
 app.listen(PORT, () => {
     console.log(`🚀 Server pokrenut na portu ${PORT}`);
     console.log(`💾 Baza: Supabase PostgreSQL`);
-    console.log(`🔗 Supabase URL: ${supabaseUrl}`);
     console.log(`📱 Aplikacija: http://localhost:${PORT}`);
     console.log(`👨‍💼 Admin: http://localhost:${PORT}/admin`);
     console.log(`🧪 Test: http://localhost:${PORT}/api/test-db`);
